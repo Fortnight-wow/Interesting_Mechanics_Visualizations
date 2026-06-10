@@ -1,112 +1,29 @@
-# Interesting Physics Visualizations
+#Interesting Physics Visualizations
 
-A collection of simulations and visualizations of some of the most fascinating and challenging problems in classical mechanics.
+Honestly, I got tired of deriving endless equations on paper and just plotting a depressing, static `plt.plot(theta)` for lab reports. It’s boring, and it doesn't give you any actual intuition for how these systems behave. 
 
-As students, we often learn equations on paper but never get to see how these systems actually behave. This repository aims to bridge that gap by using numerical methods and computer simulations to visualize complex physical systems.
-
----
-
-## Project Goals
-
-- Learn physics through visualization.
-- Understand nonlinear and chaotic systems.
-- Apply numerical methods to real physical problems.
-- Build intuition beyond textbook equations.
-- Create high-quality educational simulations.
+So, I’m building this repo to turn complex physics equations into real-time, frame-by-frame animations. If a script in here doesn't actively move and show the physical system, it shouldn't be here.
 
 ---
 
-## Current Simulation
+## What's Inside (and What I'm Working On)
 
-### Double Pendulum
+Instead of just creating empty placeholder folders, I'm implementing these one by one using proper numerical integration (`solve_ivp`) and updating them into real animations:
 
-The Double Pendulum is one of the most famous examples of deterministic chaos.
-
-Topics covered:
-
-- Lagrangian Mechanics
-- Coupled Differential Equations
-- Numerical Integration
-- Energy Conservation
-- Chaos Theory
+* **Double Pendulum:** Done. Two rods, two masses, and a lot of chaos. It solves the ODEs and tracks a live trail behind the second bob so you can see exactly when determinism goes out the window.
+* **Lorenz Attractor:** A full 3D chaotic system that traces the classic butterfly pattern over time.
+* **Three-Body Problem:** Three gravitational masses locked in a toxic relationship until one inevitably gets yeeted out of the frame.
+* **N-Body Simulator:** A gravity-driven free-for-all where a bunch of masses pull on each other to see if they'll collapse or accidentally form a galaxy.
+* **The Pendulum Variants:** Working on the **Inverted Pendulum**, **Elastic Pendulum**, and the **Kapitza Pendulum** (where vibrating the pivot upside down somehow defies gravity).
+* **Rigid Body & Mechanics Oddballs:** Restricted Three-Body, Rattleback, and a Falling Chain.
 
 ---
 
-## Planned Simulations
+## Setup
 
-- Three Body Problem
-- Restricted Three Body Problem
-- N-Body Gravity Simulator
-- Inverted Pendulum
-- Kapitza Pendulum
-- Elastic Pendulum
-- Chaotic Driven Pendulum
-- Euler Top
-- Rattleback
-- Falling Chain
-- Lorenz Attractor
-- Fermi-Pasta-Ulam-Tsingou Problem
-
----
-
-## Repository Structure
-
-```text
-Interesting_Physics_Visualizations/
-├── simulations/
-├── notebooks/
-├── docs/
-├── gifs/
-├── requirements.txt
-└── README.md
-```
-
----
-
-## Installation
+Standard routine. Clone it and install the basic math/plotting libraries:
 
 ```bash
-git clone https://github.com/Fortnight-wow/Interesting_Physics_Visualizations-.git
+git clone [https://github.com/Fortnight-wow/Interesting_Physics_Visualizations-.git](https://github.com/Fortnight-wow/Interesting_Physics_Visualizations-.git)
 cd Interesting_Physics_Visualizations-
 pip install -r requirements.txt
-```
-
----
-
-## How To Use
-
-Run a simulation:
-
-```bash
-python simulation.py
-```
-
-For notebooks:
-
-```bash
-jupyter notebook
-```
-
----
-
-## Tools Used
-
-- Python
-- NumPy
-- SciPy
-- Matplotlib
-- Plotly
-- Pygame
-- Jupyter Notebook
-
----
-
-## Why This Repository?
-
-Most beginner repositories stop at projectile motion and simple pendulums. This repository focuses on chaos, nonlinear dynamics, orbital mechanics, resonance, and computational physics.
-
----
-
-## License
-
-MIT License
