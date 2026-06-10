@@ -1,4 +1,4 @@
-########## Interesting Physics Visualizations
+## Interesting Physics Visualizations
 
 Honestly, I got tired of deriving endless equations on paper and just plotting a depressing, static `plt.plot(theta)` for lab reports. It’s boring, and it doesn't give you any actual intuition for how these systems behave. 
 
