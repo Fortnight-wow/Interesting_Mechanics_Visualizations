@@ -1,0 +1,74 @@
+# Contributing
+
+Contributions are welcome.
+
+Ideas:
+- New simulations
+- Better visualizations
+- Numerical improvements
+- Documentation updates
+
+# Future Physics Visualizations
+
+## Mechanics
+- Euler Top
+- Rattleback
+- Falling Chain
+- Kapitza Pendulum
+
+## Chaos
+- Lorenz Attractor
+- Driven Pendulum
+
+## Astrophysics
+- Restricted Three Body Problem
+- Galaxy Formation Toy Model
+- Solar System Simulator
+
+# Project Roadmap
+
+Phase 1
+- Double Pendulum
+- Three Body Problem
+
+Phase 2
+- N Body Simulator
+- Inverted Pendulum
+
+Phase 3
+- Lorenz Attractor
+- Euler Top
+
+# Research References
+
+Recommended topics for further study:
+
+- Chaos Theory
+- Classical Mechanics
+- Celestial Mechanics
+- Nonlinear Dynamics
+- Computational Physics
+- Dynamical Systems
+- Control Theory
+
+Suggested authors:
+- Landau & Lifshitz
+- Goldstein
+- Strogatz
+- Feynman
+- Arnold
+
+# Planned Simulations
+
+## Mechanics
+- Double Pendulum
+- Inverted Pendulum
+- Elastic Pendulum
+
+## Orbital Mechanics
+- Three Body Problem
+- N Body Simulator
+
+## Chaos
+- Lorenz Attractor
+- Driven Pendulum
